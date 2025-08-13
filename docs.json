@@ -1,0 +1,124 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Hedera",
+  "colors": {
+    "primary": "#614ff4",
+    "light": "#614ff4",
+    "dark": "#614ff4"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "favicon": "/favicon.png",
+  "appearance": {
+    "default": "light"
+  },
+"contextual": {
+   "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+ },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": " ",
+            "pages": [
+              "hedera"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "hedera/getting-started",
+              "hedera/getting-started/environment-setup",
+              {
+                "group": "EVM Developers",
+                "pages": [
+                  "hedera/getting-started/evm-developers",
+                  "hedera/getting-started/evm-developers/deploy-a-contract"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Networks",
+            "pages": [
+              "hedera/networks",
+              {
+                "group": "Testnets",
+                "pages": [
+                  "hedera/networks/testnet",
+                  "hedera/networks/testnet/testnet-access"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "openapi": "openapi.yaml"
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Status",
+          "href": "http://status.hedera.com/",
+          "icon": "signal"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://hedera.com/discord",
+          "icon": "discord"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://hedera.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://hedera.com/"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://hedera.zendesk.com/hc/en-us"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Quickstart",
+      "href": "https://hedera.com/getting-started"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://hedera.com/discord",
+      "facebook": "https://www.facebook.com/hederanetwork",
+      "linkedin": "https://www.linkedin.com/company/hashgraph",
+      "medium": "https://medium.com/hashgraph",
+      "reddit": "https://www.reddit.com/r/Hedera/",
+      "telegram": "https://t.me/hederahashgraph",
+      "x": "https://twitter.com/hedera",
+      "youtube": "https://www.youtube.com/hederahashgraph"
+    }
+  }
+}
